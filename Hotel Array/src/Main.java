@@ -21,7 +21,7 @@ public class Main {
 		int roomNo = 0;
 		
 		initialise();
-		
+//show a menu while the costumer don't choose option X to exit		
 		do {
 
 			System.out.println("\n");
@@ -44,7 +44,8 @@ public class Main {
 			
 			menu = sc.nextLine().toUpperCase();
 			System.out.println();
-			
+
+		//analyzing the variable menu to know what chosen option 			
 			switch (menu) {
 			case ("V"): {
 				view(roomNo);
@@ -106,6 +107,7 @@ public class Main {
 			}   
 	    }
 	
+//add new costumer to a room 
 	private static void addCustomer(Room roomRecep[], int roomNo, Scanner sc, String Customer){
 		System.out.println("Enter a Room Number between 0 - 9 :");
 		 roomNo = sc.nextInt();
@@ -146,6 +148,7 @@ public class Main {
 	 * @param roomNo
 	 * @param sc
 	 */
+
 	public static void delete(Room roomRecep[], int roomNo,Scanner sc){
 		System.out.println("Enter the room number to delete customer :");
 		roomNo = sc.nextInt();
@@ -177,6 +180,7 @@ public class Main {
 	 * @param sc
 	 * @param Customer
 	 */
+
 	public static void find(Room roomRecep[],Scanner sc,String Customer){
 		System.out.println("Enter the name of the Customer :");
 		Customer = sc.next();
