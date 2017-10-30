@@ -2,6 +2,7 @@
  * 
  * This class represent a Room
  */
+//hotel array
 public class Room {
 	String CustomerN;
 	int RoomN;
