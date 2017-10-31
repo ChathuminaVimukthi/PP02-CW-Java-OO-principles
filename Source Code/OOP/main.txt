@@ -2,28 +2,28 @@ package Hotel;
 
 public class Hotelroom {
 	
-	//Instance variables
+	//Instance variables : Customer and Room ID  for Hotelroom Instance
 	String Customer;
 	int RoomID;
 	
-	//This method to get name
+	//get method to return the customer name of Hotelroom Instance
 	public String getCustomerName(){
 		
     return Customer;
 	}
 	
-	//This method to get room id
+	//get method to return the RoomID of Hotelroom Instance
 	public int getRoomID(){
 		
 	return RoomID;	
 	}
 	
-	//This method to set customer name
+	//set method to update the current "Customer" name with "name"
     public void setCustomerName(String name){
     	this.Customer = name;
     }
 
-	//This method to set room id    
+	//set method to update the current "RoomID" with "number"
     public void setRoomID(int number){
     	this.RoomID = number;
     	
