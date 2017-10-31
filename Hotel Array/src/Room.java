@@ -2,6 +2,7 @@
  * 
  * This class represent a Room
  */
+//java-OO-principles
 public class Room {
 	String CustomerN;
 	int RoomN;
